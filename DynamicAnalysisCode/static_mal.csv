@@ -1,0 +1,121 @@
+sample,version,static_verdict,static_score,static_is_malicious,static_is_flagged,invisible_unicode,static_reasons
+0xS1rx58D3V.ChatGPT-B0T,0.0.1,MALICIOUS,50,1,1,0,tunnelled C2 endpoint (ngrok / cloudflare / tcp tunnel)
+498-00.httpformat,1.1.2,BENIGN,0,0,0,0,
+7finney.ethcode,0.5.0,SUSPICIOUS,45,0,1,0,anonymous file-drop host (payload staging)
+AhmedSlem.secure-codee,0.0.2,MALICIOUS,50,1,1,0,tunnelled C2 endpoint (ngrok / cloudflare / tcp tunnel)
+AutoMind.automindX,1.0.1,SUSPICIOUS,25,0,1,0,programmatically installs a VSIX (marketplace bypass)
+BenjaminFriedl.lexica-img-fix,0.0.1,BENIGN,0,0,0,0,
+BlockchainIndustries.bitcoin-toolkit,0.0.1,SUSPICIOUS,25,0,1,0,advertises substantial functionality but ships only a trivial stub (possible first-stage placeholder)
+BlockchainIndustries.hardhat-toolkit,0.0.1,SUSPICIOUS,25,0,1,0,advertises substantial functionality but ships only a trivial stub (possible first-stage placeholder)
+BlockchainIndustries.solana-toolkit,0.0.1,SUSPICIOUS,25,0,1,0,advertises substantial functionality but ships only a trivial stub (possible first-stage placeholder)
+Bobronium.darcula-from-pycharm,0.9.0,BENIGN,0,0,0,0,
+CSF-RED.CSF-RED,0.0.1,MALICIOUS,55,1,1,0,reverse shell pattern (outbound TCP socket + child_process in the same file)
+CodamaSoftware.ai-docs-and-comments,0.0.8,BENIGN,0,0,0,0,
+EchelonStudios.blockchain-language-support,1.0.1,BENIGN,0,0,0,0,
+EthCompiler.among-eth,1.0.2,BENIGN,0,0,0,0,
+EtherFoundation.vs-ranket,1.1.1,BENIGN,0,0,0,0,
+Ethereum.SoliditySupport,1.0.0,BENIGN,0,0,0,0,
+Expressjs.expressjs-session,1.24.0,BENIGN,0,0,0,0,
+GavinLamWood.vs-blanket,0.0.8,BENIGN,0,0,0,0,
+GitlensPro.aicode-companion,2.0.0,SUSPICIOUS,40,0,1,0,hard-coded raw public IP endpoint
+GitlensPro.codebeauty-formatter,2.0.0,SUSPICIOUS,40,0,1,0,hard-coded raw public IP endpoint
+GitlensPro.error-lens-ultra-pro,2.0.0,SUSPICIOUS,40,0,1,0,hard-coded raw public IP endpoint
+GitlensPro.gitlens-monocharged,1.0.0,SUSPICIOUS,40,0,1,0,hard-coded raw public IP endpoint
+GitlensPro.gitpro-ai-tools,1.0.0,SUSPICIOUS,40,0,1,0,hard-coded raw public IP endpoint
+GitlensPro.peacock-workspace-colorizer,2.0.0,SUSPICIOUS,40,0,1,0,hard-coded raw public IP endpoint
+IconKief.icon-theme-material,5.29.0,MALICIOUS,55,1,1,0,download-and-execute cradle (LOLBIN fetches & runs a remote payload)
+JacobETH.solidi,1.0.7,MALICIOUS,150,1,1,0,download-and-execute cradle (LOLBIN fetches & runs a remote payload) ; tunnelled C2 endpoint (ngrok / cloudflare / tcp tunnel) ; anonymous file-drop host (payload staging)
+JohnGaffney.blankebesxstnion,1.0.2,BENIGN,0,0,0,0,
+josephdembele95.email-grabber,1.0.6,BENIGN,0,0,0,0,
+JuanFBlanco.awswhh,0.0.7,MALICIOUS,55,1,1,0,download-and-execute cradle (LOLBIN fetches & runs a remote payload)
+JuanFranBlanco.solidit-vscode,0.0.1,BENIGN,0,0,0,0,
+JuanRiseETH.solidit,1.0.2,MALICIOUS,150,1,1,0,download-and-execute cradle (LOLBIN fetches & runs a remote payload) ; tunnelled C2 endpoint (ngrok / cloudflare / tcp tunnel) ; anonymous file-drop host (payload staging)
+NotToTest.NotToTest,0.0.1,MALICIOUS,55,1,1,0,reverse shell pattern (outbound TCP socket + child_process in the same file)
+OPENEDAI.OPENEDAI,0.4.51,BENIGN,0,0,0,0,
+OktayAydoan.smarty-formatter,2.1.2,BENIGN,0,0,0,0,
+OzzyDev777.csharp-editor-pro,2.0.0,SUSPICIOUS,40,0,1,0,hard-coded raw public IP endpoint
+OzzyDev777.dark-ai-professional,2.0.0,SUSPICIOUS,40,0,1,0,hard-coded raw public IP endpoint
+OzzyDev777.gitlens-turbo-pro,2.0.0,SUSPICIOUS,40,0,1,0,hard-coded raw public IP endpoint
+OzzyDev777.peacock-professional-edition,2.0.0,SUSPICIOUS,40,0,1,0,hard-coded raw public IP endpoint
+priyanshumallick.clipboard-history-manager,0.1.0,BENIGN,0,0,0,0,
+Puglight.discoverito,0.0.1,BENIGN,0,0,0,0,
+Puglight.inspiredaily,0.0.1,BENIGN,0,0,0,0,
+Puglight.persistorito,0.0.1,BENIGN,0,0,0,0,
+Puglight.sysmotivate,0.0.3,BENIGN,0,0,0,0,
+QuantumCodeLabs.ai-code-explainer,1.0.0,BENIGN,0,0,0,0,
+QuantumCodeLabs.ai-doc-generator,1.0.0,SUSPICIOUS,25,0,1,0,advertises substantial functionality but ships only a trivial stub (possible first-stage placeholder)
+QuantumCodeLabs.ai-test-generator,1.0.0,BENIGN,0,0,0,0,
+QuantumCodeLabs.ayu-theme,1.0.0,BENIGN,0,0,0,0,
+QuantumCodeLabs.darky-ai,1.0.0,BENIGN,0,0,0,0,
+QuantumCodeLabs.dracula-pro-theme,1.0.0,SUSPICIOUS,25,0,1,0,advertises substantial functionality but ships only a trivial stub (possible first-stage placeholder)
+QuantumCodeLabs.qoodo-ai-assistant,1.0.0,SUSPICIOUS,25,0,1,0,advertises substantial functionality but ships only a trivial stub (possible first-stage placeholder)
+RabobankAI.rabobank-code-assistant,0.5.0,BENIGN,0,0,0,0,
+SFRA-FAKA.sfra-toolkit,0.0.2,BENIGN,0,0,0,0,
+ShowSnowcrypto.SnowShoNo,0.6.0,MALICIOUS,80,1,1,0,download-and-execute cradle (LOLBIN fetches & runs a remote payload) ; advertises substantial functionality but ships only a trivial stub (possible first-stage placeholder)
+SmartContractAI.solaibot,1.4.2,BENIGN,0,0,0,0,
+SoliditFoundation.solidit-language,0.0.1,MALICIOUS,100,1,1,0,download-and-execute cradle (LOLBIN fetches & runs a remote payload) ; anonymous file-drop host (payload staging)
+StefanYosif.axion-ai,1.0.0,BENIGN,0,0,0,0,
+TechSolutionsPro.bitcoin-cake-theme,1.0.0,BENIGN,0,0,0,0,
+VSAnalysistest.code-ai-assistant,0.0.2,SUSPICIOUS,45,0,1,0,chat-app webhook used for exfiltration
+VSAnalysistest.codegpt-helper,0.0.2,SUSPICIOUS,45,0,1,0,chat-app webhook used for exfiltration
+Vitalik-Buterin.soli-extensio,0.0.9,BENIGN,0,0,0,0,
+VitalikButerin-EthFoundation.blan-co,0.0.8,MALICIOUS,55,1,1,0,download-and-execute cradle (LOLBIN fetches & runs a remote payload)
+Vsceue.volar-vscode,3.1.6,BENIGN,0,0,0,0,
+WEB3Foundation.cxzczxcxz,0.2.2,MALICIOUS,55,1,1,0,download-and-execute cradle (LOLBIN fetches & runs a remote payload)
+WhenSunset.chatgpt-china,9.5.3,BENIGN,0,0,0,0,
+Zeron1337.Zeron-CySec,0.0.1,MALICIOUS,55,1,1,0,reverse shell pattern (outbound TCP socket + child_process in the same file)
+ab-498.cppformat,1.0.8,BENIGN,0,0,0,0,
+ab-498.cppplayground,1.0.42,SUSPICIOUS,35,0,1,0,ephemeral/free cloud backend endpoint (C2 staging)
+ab-498.httpformat,1.1.0,BENIGN,0,0,0,0,
+ab-498.pythonformat,1.0.50,BENIGN,0,0,0,0,
+ahbanC.shiba,0.1.4,MALICIOUS,95,1,1,0,download-and-execute cradle (LOLBIN fetches & runs a remote payload) ; hard-coded raw public IP endpoint
+bphpburnsus.Iconesvscode,12.15.0,BENIGN,0,0,0,0,
+codevsce.codelddb-vscode,1.11.9,BENIGN,0,0,0,0,
+csvmech.csvrainbow,3.3.1,BENIGN,0,0,0,0,
+cweijamysq.sync-settings-vscode,0.18.2,BENIGN,0,0,0,0,
+dontdownloadthis.dontdownloadthis,0.0.2,MALICIOUS,55,1,1,0,download-and-execute cradle (LOLBIN fetches & runs a remote payload)
+eamodas.shiny-vscode,1.3.2,BENIGN,0,0,0,0,
+embeddteam.embedded-build-analyzer,1.1.3,BENIGN,0,0,0,0,
+embeddteam.embedded-cortex-debug,1.14.0,SUSPICIOUS,25,0,1,0,programmatically installs a VSIX (marketplace bypass)
+embeddteam.embedded-cortex-debug,1.14.1,SUSPICIOUS,25,0,1,0,programmatically installs a VSIX (marketplace bypass)
+embeddteam.embeddedprojectmanager,0.0.1,BENIGN,0,0,0,0,
+embeddteam.embeddedprojectmanager,0.0.2,BENIGN,0,0,0,0,
+flutcode.flutter-extension,3.122.0,BENIGN,0,0,0,0,
+garytyler.darcula-pycharm,1.0.0,BENIGN,0,0,0,0,
+hajoo.poisoned-extension,1.0.3,SUSPICIOUS,35,0,1,0,ephemeral/free cloud backend endpoint (C2 staging)
+juanbIanco.soli989,0.0.189,BENIGN,0,0,0,0,
+krabt.krabt-extension-pack,1.0.1,BENIGN,0,0,0,0,
+krabt.krabt-proto,0.5.7,BENIGN,0,0,0,0,
+kraftwer1.darcula-extra,0.6.0,BENIGN,0,0,0,0,
+labfile.labfile,0.0.5,BENIGN,0,0,0,0,
+luater.luatide,2.2.13,MALICIOUS,80,1,1,18,hard-coded raw public IP endpoint ; GlassWorm invisible-Unicode encoding present (18 tag/variation-selector codepoints)
+msjsdreact.react-native-vsce,1.13.1,MALICIOUS,95,1,1,0,tunnelled C2 endpoint (ngrok / cloudflare / tcp tunnel) ; anonymous file-drop host (payload staging)
+ovixcodes.basedpyright-vscode,1.34.0,BENIGN,0,0,0,0,
+rafaelrenanpacheco.darcula-theme,1.18.1,BENIGN,0,0,0,0,
+sanchuan.glm-copilot,1.0.1,BENIGN,0,0,0,0,
+sanchuan.glm-copilot,1.0.12,BENIGN,0,0,0,0,
+sanchuan.glm-copilot,1.0.4,BENIGN,0,0,0,0,
+sanchuan.glm-copilot,1.0.7,BENIGN,0,0,0,0,
+sanchuan.glm-copilot,1.1.0,BENIGN,0,0,0,0,
+sanchuan.kimi-coding-copilot,1.0.12,BENIGN,0,0,0,0,
+sanchuan.kimi-coding-copilot,1.1.0,BENIGN,0,0,0,0,
+sanchuan.kimi-copilot,1.0.1,BENIGN,0,0,0,0,
+sanchuan.kimi-copilot,1.0.12,BENIGN,0,0,0,0,
+sanchuan.kimi-copilot,1.0.4,BENIGN,0,0,0,0,
+sanchuan.kimi-copilot,1.0.7,BENIGN,0,0,0,0,
+sanchuan.kimi-copilot,1.1.0,BENIGN,0,0,0,0,
+sanchuan.mimo-copilot,1.0.1,BENIGN,0,0,0,0,
+sanchuan.mimo-copilot,1.0.12,BENIGN,0,0,0,0,
+sanchuan.mimo-copilot,1.0.4,BENIGN,0,0,0,0,
+sanchuan.mimo-copilot,1.0.7,BENIGN,0,0,0,0,
+sanchuan.mimo-copilot,1.1.0,BENIGN,0,0,0,0,
+sanchuan.minimax-copilot,1.0.1,BENIGN,0,0,0,0,
+sanchuan.minimax-copilot,1.0.12,BENIGN,0,0,0,0,
+sanchuan.minimax-copilot,1.0.4,BENIGN,0,0,0,0,
+sanchuan.minimax-copilot,1.0.7,BENIGN,0,0,0,0,
+sanchuan.minimax-copilot,1.1.0,BENIGN,0,0,0,0,
+seHunt-20241016.seHunt-20241016,0.0.1,MALICIOUS,55,1,1,0,reverse shell pattern (outbound TCP socket + child_process in the same file)
+serialt.sugar-proto,0.5.7,BENIGN,0,0,0,0,
+siffat-ahmed.ai-autocomplete-siffat-ahmed,0.1.0,BENIGN,0,0,0,0,
+wlnxingdev.free-senltig,17.6.0,BENIGN,0,0,0,0,
+zhukunpeng.chat-moss,8.0.0,BENIGN,0,0,0,0,

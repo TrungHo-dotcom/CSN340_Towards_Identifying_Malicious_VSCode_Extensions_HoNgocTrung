@@ -1,0 +1,31 @@
+sample,version,static_verdict,static_score,static_is_malicious,static_is_flagged,invisible_unicode,static_reasons
+Codeium.codeium,1.49.2,BENIGN,0,0,0,0,
+Continue.continue,2.1.0,BENIGN,0,0,0,0,
+DavidAnson.vscode-markdownlint,0.61.2,BENIGN,0,0,0,0,
+EditorConfig.EditorConfig,0.18.2,BENIGN,0,0,0,0,
+GitHub.github-vscode-theme,6.3.5,BENIGN,0,0,0,0,
+Gruntfuggly.todo-tree,0.0.226,BENIGN,0,0,0,0,
+PKief.material-icon-theme,5.35.0,MALICIOUS,55,1,1,0,download-and-execute cradle (LOLBIN fetches & runs a remote payload)
+TabNine.tabnine-vscode,3.335.0,MALICIOUS,80,1,1,0,download-and-execute cradle (LOLBIN fetches & runs a remote payload) ; programmatically installs a VSIX (marketplace bypass)
+aaron-bond.better-comments,3.0.2,BENIGN,0,0,0,0,
+alefragnani.Bookmarks,14.1.1,BENIGN,0,0,0,0,
+alefragnani.project-manager,13.1.0,BENIGN,0,0,0,0,
+christian-kohler.npm-intellisense,1.4.5,BENIGN,0,0,0,0,
+christian-kohler.path-intellisense,2.10.0,BENIGN,0,0,0,0,
+dbaeumer.vscode-eslint,3.0.29,BENIGN,0,0,0,0,
+donjayamanne.githistory,0.6.20,SUSPICIOUS,40,0,1,18,GlassWorm invisible-Unicode encoding present (18 tag/variation-selector codepoints)
+dracula-theme.theme-dracula,2.25.1,BENIGN,0,0,0,0,
+eamodio.gitlens,2026.6.200604,BENIGN,0,0,0,0,
+esbenp.prettier-vscode,12.4.0,BENIGN,0,0,0,0,
+formulahendry.auto-close-tag,0.5.15,BENIGN,0,0,0,0,
+formulahendry.auto-rename-tag,0.1.10,BENIGN,0,0,0,0,
+formulahendry.code-runner,0.12.2,MALICIOUS,55,1,1,0,download-and-execute cradle (LOLBIN fetches & runs a remote payload)
+golang.go,0.55.0,BENIGN,0,0,0,0,
+hediet.vscode-drawio,1.9.260618014,BENIGN,0,0,0,0,
+humao.rest-client,0.25.1,BENIGN,0,0,0,0,
+johnpapa.vscode-peacock,4.2.3,BENIGN,0,0,0,0,
+mechatroner.rainbow-csv,3.24.1,BENIGN,0,0,0,0,
+mhutchie.git-graph,1.30.0,BENIGN,0,0,0,0,
+mikestead.dotenv,1.0.1,BENIGN,0,0,0,0,
+ms-azuretools.vscode-docker,2.0.0,BENIGN,0,0,0,0,
+ms-python.python,2026.5.2026061001,SUSPICIOUS,40,0,1,240,GlassWorm invisible-Unicode encoding present (240 tag/variation-selector codepoints)

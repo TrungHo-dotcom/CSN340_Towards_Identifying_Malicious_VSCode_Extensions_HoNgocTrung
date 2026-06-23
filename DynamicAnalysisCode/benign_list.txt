@@ -1,0 +1,71 @@
+# Benign control set — popular, legitimate VS Code extensions from
+# https://github.com/viatsko/awesome-vscode  (one "publisher.name" per line).
+# Edit freely. Lines starting with '#' are ignored.
+# These deliberately include the REAL versions of brands the malicious set
+# impersonates (gitlens, darcula, prettier, themes, formatters, AI helpers),
+# so the false-positive test is meaningful.
+
+# ── Formatters / linters (counterpart to the malicious "formatter" clones) ──
+esbenp.prettier-vscode
+dbaeumer.vscode-eslint
+EditorConfig.EditorConfig
+streetsidesoftware.code-spell-checker
+DavidAnson.vscode-markdownlint
+
+# ── Git (counterpart to the GitlensPro / gitlens clones) ──
+eamodio.gitlens
+mhutchie.git-graph
+donjayamanne.githistory
+waderyan.gitblame
+
+# ── Themes / icons (counterpart to darcula / dracula / ayu / material clones) ──
+dracula-theme.theme-dracula
+zhuangtongfa.material-theme
+PKief.material-icon-theme
+vscode-icons-team.vscode-icons
+GitHub.github-vscode-theme
+johnpapa.vscode-peacock
+teabyii.ayu
+
+# ── Productivity / editing ──
+christian-kohler.path-intellisense
+christian-kohler.npm-intellisense
+formulahendry.auto-rename-tag
+formulahendry.auto-close-tag
+formulahendry.code-runner
+naumovs.color-highlight
+oderwat.indent-rainbow
+aaron-bond.better-comments
+usernamehw.errorlens
+Gruntfuggly.todo-tree
+wayou.vscode-todo-highlight
+alefragnani.project-manager
+alefragnani.Bookmarks
+wmaurer.change-case
+mikestead.dotenv
+
+# ── Web / markup / data ──
+ritwickdey.LiveServer
+yzhang.markdown-all-in-one
+shd101wyy.markdown-preview-enhanced
+redhat.vscode-yaml
+redhat.vscode-xml
+mechatroner.rainbow-csv
+ms-azuretools.vscode-docker
+
+# ── REST / HTTP (counterpart to the malicious httpformat clones) ──
+humao.rest-client
+rangav.vscode-thunder-client
+
+# ── AI assistants (counterpart to the malicious AI-copilot clones) ──
+Continue.continue
+Codeium.codeium
+TabNine.tabnine-vscode
+
+# ── Languages / misc utilities ──
+ms-python.python
+ms-vscode.cpptools
+golang.go
+rust-lang.rust-analyzer
+tomoki1207.pdf
+hediet.vscode-drawio

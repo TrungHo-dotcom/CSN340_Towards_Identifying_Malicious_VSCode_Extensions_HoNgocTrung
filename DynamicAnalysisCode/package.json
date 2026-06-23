@@ -1,0 +1,15 @@
+{
+  "name": "vsix-dynamic-sandbox",
+  "version": "2.0.0",
+  "description": "Dynamic analysis sandbox for VS Code (.vsix) extensions — CSN 304 Project",
+  "main": "sandbox.js",
+  "scripts": {
+    "test:lavender":  "node sandbox.js ./test-samples/lavender-dreams/extension",
+    "test:sql":       "node sandbox.js ./test-samples/sql-formatter/extension",
+    "test:secure":    "node sandbox.js ./test-samples/secure-code/extension",
+    "batch:malicious":"node run_batch.js --input ./samples/malicious --output ./results/malicious --label 1",
+    "batch:benign":   "node run_batch.js --input ./samples/benign    --output ./results/benign    --label 0"
+  },
+  "engines": { "node": ">=16.0.0" },
+  "license": "MIT"
+}
