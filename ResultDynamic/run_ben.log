@@ -1,0 +1,174 @@
+
+════════════════════════════════════════════════════════════════════════
+  DATASET DYNAMIC ANALYSIS
+  Input    : /media/sf_CNDCProject2/Benign  (49 samples)
+  Output   : ./res
+  Label    : 0   Platform spoof: win32   Wait: 12000ms
+════════════════════════════════════════════════════════════════════════
+
+[1/49] Codeium.codeium/1.49.2
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[2/49] Continue.continue/2.1.0
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/18, static BENIGN/0)  events=4 msgs=0
+
+[3/49] DavidAnson.vscode-markdownlint/0.61.2
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[4/49] EditorConfig.EditorConfig/0.18.2
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=1 msgs=0
+
+[5/49] GitHub.github-vscode-theme/6.3.5
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[6/49] Gruntfuggly.todo-tree/0.0.226
+  🔴 FINAL MALICIOUS [static]  (dyn BENIGN/0, static MALICIOUS/55)  events=0 msgs=0
+
+[7/49] PKief.material-icon-theme/5.35.0
+  🔴 FINAL MALICIOUS [static]  (dyn BENIGN/0, static MALICIOUS/55)  events=0 msgs=0
+
+[8/49] TabNine.tabnine-vscode/3.335.0
+  [TIMEOUT] exceeded 90000 ms
+  🔴 FINAL MALICIOUS [static]  (dyn SUSPICIOUS/35, static MALICIOUS/80)  events=2 msgs=0
+
+[9/49] aaron-bond.better-comments/3.0.2
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[10/49] alefragnani.Bookmarks/14.1.1
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[11/49] alefragnani.project-manager/13.1.0
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/18, static BENIGN/0)  events=2 msgs=0
+
+[12/49] christian-kohler.npm-intellisense/1.4.5
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=11 msgs=0
+
+[13/49] christian-kohler.path-intellisense/2.10.0
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[14/49] dbaeumer.vscode-eslint/3.0.29
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[15/49] donjayamanne.githistory/0.6.20
+  🟡 FINAL SUSPICIOUS [static]  (dyn BENIGN/0, static SUSPICIOUS/40)  events=0 msgs=0
+
+[16/49] dracula-theme.theme-dracula/2.25.1
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[17/49] eamodio.gitlens/2026.6.200604
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[18/49] esbenp.prettier-vscode/12.4.0
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[19/49] formulahendry.auto-close-tag/0.5.15
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[20/49] formulahendry.auto-rename-tag/0.1.10
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=4 msgs=0
+
+[21/49] formulahendry.code-runner/0.12.2
+  🔴 FINAL MALICIOUS [static]  (dyn BENIGN/0, static MALICIOUS/55)  events=1 msgs=0
+
+[22/49] golang.go/0.55.0
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[23/49] hediet.vscode-drawio/1.9.260618014
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/18, static BENIGN/0)  events=5 msgs=0
+
+[24/49] humao.rest-client/0.25.1
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[25/49] johnpapa.vscode-peacock/4.2.3
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[26/49] mechatroner.rainbow-csv/3.24.1
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=2 msgs=0
+
+[27/49] mhutchie.git-graph/1.30.0
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/10, static BENIGN/0)  events=17 msgs=1
+     dest: api.mhutchie.com
+
+[28/49] mikestead.dotenv/1.0.1
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[29/49] ms-azuretools.vscode-docker/2.0.0
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[30/49] ms-python.python/2026.5.2026061001
+  🟡 FINAL SUSPICIOUS [static]  (dyn BENIGN/0, static SUSPICIOUS/40)  events=0 msgs=0
+
+[31/49] ms-vscode.cpptools/1.32.2
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[32/49] naumovs.color-highlight/2.8.0
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[33/49] oderwat.indent-rainbow/8.3.1
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[34/49] rangav.vscode-thunder-client/2.40.15
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=51 msgs=0
+
+[35/49] redhat.vscode-xml/0.29.2026061109
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[36/49] redhat.vscode-yaml/1.24.2026062009
+  🟡 FINAL SUSPICIOUS [static]  (dyn BENIGN/0, static SUSPICIOUS/25)  events=0 msgs=0
+
+[37/49] ritwickdey.LiveServer/5.7.10
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[38/49] rust-lang.rust-analyzer/0.4.2944
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[39/49] shd101wyy.markdown-preview-enhanced/0.8.30
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[40/49] streetsidesoftware.code-spell-checker/4.6.0
+  🔴 FINAL MALICIOUS [static]  (dyn BENIGN/0, static MALICIOUS/55)  events=0 msgs=0
+
+[41/49] teabyii.ayu/1.1.12
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[42/49] tomoki1207.pdf/1.2.2
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[43/49] usernamehw.errorlens/3.28.0
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[44/49] vscode-icons-team.vscode-icons/12.18.0
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[45/49] waderyan.gitblame/13.0.1
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[46/49] wayou.vscode-todo-highlight/1.0.5
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[47/49] wmaurer.change-case/1.0.0
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[48/49] yzhang.markdown-all-in-one/3.6.3
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=3 msgs=0
+
+[49/49] zhuangtongfa.material-theme/3.19.0
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+════════════════════════════════════════════════════════════════════════
+  BATCH COMPLETE
+════════════════════════════════════════════════════════════════════════
+  Samples processed     : 49   (errors/no-log: 0)
+  FINAL MALICIOUS       : 5   (static+dynamic combined)
+  FINAL FLAGGED         : 8   (MALICIOUS + SUSPICIOUS)
+  --- treating this batch as ground-truth BENIGN (label=0) ---
+  False-positive (strict): 10.2%   [FP=5 TN=44]
+  False-positive (flagged): 16.3%   [FP=8 TN=41]
+
+  CSV     → ./res/all.csv
+  Summary → res/batch-summary.json
+════════════════════════════════════════════════════════════════════════
+
+  Tip: run once on the malicious set (--label 1) and once on the benign set
+       (--label 0 --append) into the SAME --csv, then: node evaluate.js <csv>
+

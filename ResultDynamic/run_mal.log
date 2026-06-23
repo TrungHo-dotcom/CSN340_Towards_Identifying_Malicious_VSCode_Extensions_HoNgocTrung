@@ -1,0 +1,415 @@
+
+════════════════════════════════════════════════════════════════════════
+  DATASET DYNAMIC ANALYSIS
+  Input    : /media/sf_CNDCProject2/Dataset  (120 samples)
+  Output   : ./res
+  Label    : 1   Platform spoof: win32   Wait: 12000ms
+════════════════════════════════════════════════════════════════════════
+
+[1/120] 0xS1rx58D3V.ChatGPT-B0T/0.0.1
+  🔴 FINAL MALICIOUS [both]  (dyn MALICIOUS/90, static MALICIOUS/50)  events=4 msgs=0
+
+[2/120] 498-00.httpformat/1.1.2
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[3/120] 7finney.ETHCode/1.0.0
+  🔴 FINAL MALICIOUS [dynamic]  (dyn MALICIOUS/90, static SUSPICIOUS/45)  events=28 msgs=2
+     dest: raw.githubusercontent.com
+
+[4/120] AhmedSlem.secure-codee/0.0.2
+  🔴 FINAL MALICIOUS [both]  (dyn MALICIOUS/75, static MALICIOUS/50)  events=62 msgs=31
+     dest: ca458c98fbe7.ngrok-free.app
+
+[5/120] AutoMind.automindX/1.0.1
+  🟡 FINAL SUSPICIOUS [static]  (dyn BENIGN/10, static SUSPICIOUS/25)  events=26 msgs=13
+     dest: nfiles3three.autohome.com.cn
+
+[6/120] BenjaminFriedl.lexica-img-fix/0.0.1
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[7/120] BlockchainIndustries.bitcoin-toolkit/0.0.1
+  🟡 FINAL SUSPICIOUS [static]  (dyn BENIGN/0, static SUSPICIOUS/25)  events=0 msgs=0
+
+[8/120] BlockchainIndustries.hardhat-toolkit/0.0.1
+  🟡 FINAL SUSPICIOUS [static]  (dyn BENIGN/0, static SUSPICIOUS/25)  events=0 msgs=0
+
+[9/120] BlockchainIndustries.solana-toolkit/0.0.1
+  🟡 FINAL SUSPICIOUS [static]  (dyn BENIGN/0, static SUSPICIOUS/25)  events=0 msgs=0
+
+[10/120] Bobronium.darcula-from-pycharm/0.9.0
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[11/120] CSF-RED.CSF-RED/0.0.1
+  🔴 FINAL MALICIOUS [both]  (dyn MALICIOUS/115, static MALICIOUS/55)  events=30 msgs=0
+
+[12/120] CodamaSoftware.ai-docs-and-comments/0.0.8
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[13/120] EchelonStudios.blockchain-language-support/1.0.1
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[14/120] EthCompiler.among-eth/1.0.2
+  🟡 FINAL SUSPICIOUS [dynamic]  (dyn SUSPICIOUS/30, static BENIGN/0)  events=4 msgs=1
+     dest: solidity.bot
+
+[15/120] EtherFoundation.vs-ranket/1.1.1
+  🔴 FINAL MALICIOUS [dynamic]  (dyn MALICIOUS/90, static BENIGN/0)  events=1 msgs=0
+
+[16/120] Ethereum.SoliditySupport/1.0.0
+  [TIMEOUT] exceeded 90000 ms
+  🔴 FINAL MALICIOUS [dynamic]  (dyn MALICIOUS/90, static BENIGN/0)  events=12 msgs=0
+
+[17/120] Expressjs.expressjs-session/1.24.0
+  🔴 FINAL MALICIOUS [dynamic]  (dyn MALICIOUS/95, static BENIGN/0)  events=4 msgs=1
+     dest: xn--expessjs-00d.com
+
+[18/120] GavinLamWood.vs-blanket/0.0.8
+  🔴 FINAL MALICIOUS [dynamic]  (dyn MALICIOUS/90, static BENIGN/0)  events=1 msgs=0
+
+[19/120] GitlensPro.aicode-companion/2.0.0
+  🔴 FINAL MALICIOUS [dynamic]  (dyn MALICIOUS/65, static SUSPICIOUS/40)  events=7 msgs=2
+     dest: 91.92.242.133
+
+[20/120] GitlensPro.codebeauty-formatter/2.0.0
+  🔴 FINAL MALICIOUS [dynamic]  (dyn MALICIOUS/65, static SUSPICIOUS/40)  events=7 msgs=2
+     dest: 91.92.242.133
+
+[21/120] GitlensPro.error-lens-ultra-pro/2.0.0
+  🔴 FINAL MALICIOUS [dynamic]  (dyn MALICIOUS/65, static SUSPICIOUS/40)  events=7 msgs=2
+     dest: 91.92.242.133
+
+[22/120] GitlensPro.gitlens-monocharged/1.0.0
+  🔴 FINAL MALICIOUS [dynamic]  (dyn MALICIOUS/65, static SUSPICIOUS/40)  events=7 msgs=2
+     dest: 91.92.242.133
+
+[23/120] GitlensPro.gitpro-ai-tools/1.0.0
+  🔴 FINAL MALICIOUS [dynamic]  (dyn MALICIOUS/65, static SUSPICIOUS/40)  events=7 msgs=2
+     dest: 91.92.242.133
+
+[24/120] GitlensPro.peacock-workspace-colorizer/2.0.0
+  🔴 FINAL MALICIOUS [dynamic]  (dyn MALICIOUS/65, static SUSPICIOUS/40)  events=7 msgs=2
+     dest: 91.92.242.133
+
+[25/120] IconKief.icon-theme-material/5.29.0
+  🔴 FINAL MALICIOUS [static]  (dyn BENIGN/0, static MALICIOUS/55)  events=0 msgs=0
+
+[26/120] JacobETH.solidi/1.0.7
+  🔴 FINAL MALICIOUS [both]  (dyn MALICIOUS/115, static MALICIOUS/150)  events=4 msgs=0
+
+[27/120] JohnGaffney.blankebesxstnion/1.0.2
+  🟡 FINAL SUSPICIOUS [dynamic]  (dyn SUSPICIOUS/30, static BENIGN/0)  events=4 msgs=1
+     dest: solidity.bot
+
+[28/120] JosephDembele95.email-grabber/1.0.6
+  [TIMEOUT] exceeded 90000 ms
+  🔴 FINAL MALICIOUS [dynamic]  (dyn MALICIOUS/60, static BENIGN/0)  events=8 msgs=0
+
+[29/120] JuanFBlanco.awswhh/0.0.7
+  🔴 FINAL MALICIOUS [both]  (dyn MALICIOUS/90, static MALICIOUS/55)  events=1 msgs=0
+
+[30/120] JuanFranBlanco.solidit-vscode/0.0.1
+  🔴 FINAL MALICIOUS [both]  (dyn MALICIOUS/90, static MALICIOUS/55)  events=12 msgs=0
+
+[31/120] JuanRiseETH.solidit/1.0.2
+  🔴 FINAL MALICIOUS [both]  (dyn MALICIOUS/115, static MALICIOUS/150)  events=4 msgs=0
+
+[32/120] NotToTest.NotToTest/0.0.1
+  🔴 FINAL MALICIOUS [both]  (dyn MALICIOUS/115, static MALICIOUS/55)  events=30 msgs=0
+
+[33/120] OPENEDAI.OPENEDAI/0.4.51
+  [TIMEOUT] exceeded 90000 ms
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/18, static BENIGN/0)  events=1 msgs=0
+
+[34/120] OktayAydoan.smarty-formatter/2.1.2
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[35/120] OzzyDev777.csharp-editor-pro/2.0.0
+  🔴 FINAL MALICIOUS [both]  (dyn MALICIOUS/170, static MALICIOUS/95)  events=8 msgs=2
+     dest: 91.92.242.133
+
+[36/120] OzzyDev777.dark-ai-professional/2.0.0
+  🔴 FINAL MALICIOUS [both]  (dyn MALICIOUS/170, static MALICIOUS/95)  events=8 msgs=2
+     dest: 91.92.242.133
+
+[37/120] OzzyDev777.gitlens-turbo-pro/2.0.0
+  🔴 FINAL MALICIOUS [dynamic]  (dyn MALICIOUS/65, static SUSPICIOUS/40)  events=7 msgs=2
+     dest: 91.92.242.133
+
+[38/120] OzzyDev777.peacock-professional-edition/2.0.0
+  🔴 FINAL MALICIOUS [both]  (dyn MALICIOUS/170, static MALICIOUS/95)  events=8 msgs=2
+     dest: 91.92.242.133
+
+[39/120] PriyanshuMallick.clipboard-history-manager/0.1.0
+  [TIMEOUT] exceeded 90000 ms
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[40/120] Puglight.discoverito/0.0.1
+  🟡 FINAL SUSPICIOUS [dynamic]  (dyn SUSPICIOUS/35, static BENIGN/0)  events=9 msgs=0
+
+[41/120] Puglight.inspiredaily/0.0.1
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[42/120] Puglight.persistorito/0.0.1
+  🟡 FINAL SUSPICIOUS [dynamic]  (dyn SUSPICIOUS/35, static BENIGN/0)  events=4 msgs=0
+
+[43/120] Puglight.sysmotivate/0.0.3
+  [TIMEOUT] exceeded 90000 ms
+  🔴 FINAL MALICIOUS [dynamic]  (dyn MALICIOUS/65, static BENIGN/0)  events=6 msgs=1
+     dest: raw.githubusercontent.com
+
+[44/120] QuantumCodeLabs.ai-code-explainer/1.0.0
+  🔴 FINAL MALICIOUS [static]  (dyn BENIGN/0, static MALICIOUS/55)  events=0 msgs=0
+
+[45/120] QuantumCodeLabs.ai-doc-generator/1.0.0
+  🔴 FINAL MALICIOUS [static]  (dyn BENIGN/0, static MALICIOUS/80)  events=0 msgs=0
+
+[46/120] QuantumCodeLabs.ai-test-generator/1.0.0
+  🔴 FINAL MALICIOUS [static]  (dyn BENIGN/0, static MALICIOUS/55)  events=0 msgs=0
+
+[47/120] QuantumCodeLabs.ayu-theme/1.0.0
+  🔴 FINAL MALICIOUS [static]  (dyn BENIGN/0, static MALICIOUS/55)  events=0 msgs=0
+
+[48/120] QuantumCodeLabs.darky-ai/1.0.0
+  🔴 FINAL MALICIOUS [static]  (dyn BENIGN/0, static MALICIOUS/55)  events=0 msgs=0
+
+[49/120] QuantumCodeLabs.dracula-pro-theme/1.0.0
+  🔴 FINAL MALICIOUS [static]  (dyn BENIGN/0, static MALICIOUS/80)  events=0 msgs=0
+
+[50/120] QuantumCodeLabs.qoodo-ai-assistant/1.0.0
+  🔴 FINAL MALICIOUS [static]  (dyn BENIGN/0, static MALICIOUS/80)  events=0 msgs=0
+
+[51/120] RabobankAI.rabobank-code-assistant/0.5.0
+  🟢 FINAL BENIGN [static-only, dynamic produced no log]  (static BENIGN/0)
+
+[52/120] SFRA-FAKA.sfra-toolkit/0.0.2
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[53/120] ShowSnowcrypto.SnowShoNo/0.6.0
+  🔴 FINAL MALICIOUS [both]  (dyn MALICIOUS/90, static MALICIOUS/80)  events=1 msgs=0
+
+[54/120] SmartContractAI.solaibot/1.4.2
+  🟡 FINAL SUSPICIOUS [dynamic]  (dyn SUSPICIOUS/30, static BENIGN/0)  events=4 msgs=1
+     dest: solidity.bot
+
+[55/120] SoliditFoundation.solidit-language/0.0.1
+  🔴 FINAL MALICIOUS [both]  (dyn MALICIOUS/90, static MALICIOUS/100)  events=13 msgs=0
+
+[56/120] StefanYosif.axion-ai/1.0.0
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[57/120] TechSolutionsPro.bitcoin-cake-theme/1.0.0
+  🔴 FINAL MALICIOUS [static]  (dyn SUSPICIOUS/35, static MALICIOUS/55)  events=1 msgs=0
+
+[58/120] VSAnalysistest.code-ai-assistant/0.0.2
+  🔴 FINAL MALICIOUS [dynamic]  (dyn MALICIOUS/70, static SUSPICIOUS/45)  events=2 msgs=1
+     dest: discord.com
+
+[59/120] VSAnalysistest.codegpt-helper/0.0.2
+  🔴 FINAL MALICIOUS [dynamic]  (dyn MALICIOUS/70, static SUSPICIOUS/45)  events=26 msgs=13
+     dest: discord.com
+
+[60/120] Vitalik-Buterin.soli-extensio/0.0.9
+  🔴 FINAL MALICIOUS [dynamic]  (dyn MALICIOUS/135, static BENIGN/0)  events=7 msgs=1
+     dest: function.undefined21.com
+
+[61/120] VitalikButerin-EthFoundation.blan-co/0.0.8
+  🔴 FINAL MALICIOUS [both]  (dyn MALICIOUS/90, static MALICIOUS/55)  events=1 msgs=0
+
+[62/120] Vsceue.volar-vscode/3.1.6
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[63/120] WEB3Foundation.cxzczxcxz/0.2.2
+  🔴 FINAL MALICIOUS [both]  (dyn MALICIOUS/90, static MALICIOUS/55)  events=2 msgs=0
+
+[64/120] WhenSunset.chatgpt-china/9.5.3
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=1 msgs=0
+
+[65/120] Zeron1337.Zeron-CySec/0.0.1
+  🔴 FINAL MALICIOUS [both]  (dyn MALICIOUS/115, static MALICIOUS/55)  events=30 msgs=0
+
+[66/120] ab-498.cppformat/1.0.8
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=1 msgs=0
+
+[67/120] ab-498.cppplayground/1.0.42
+  [TIMEOUT] exceeded 90000 ms
+  🟡 FINAL SUSPICIOUS [both]  (dyn SUSPICIOUS/30, static SUSPICIOUS/35)  events=38 msgs=17
+     dest: ab498.pythonanywhere.com
+
+[68/120] ab-498.httpformat/1.1.0
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[69/120] ab-498.pythonformat/1.0.50
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=2 msgs=0
+
+[70/120] ahbanC.shiba/0.1.4
+  🔴 FINAL MALICIOUS [both]  (dyn MALICIOUS/125, static MALICIOUS/95)  events=13 msgs=0
+
+[71/120] bphpburnsus.iconesvscode/12.15.0
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[72/120] codevsce.codelddb-vscode/1.11.9
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[73/120] csvmech.csvrainbow/3.3.1
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[74/120] cweijamysq.sync-settings-vscode/0.18.2
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/18, static BENIGN/0)  events=7 msgs=0
+
+[75/120] dontdownloadthis.dontdownloadthis/0.0.2
+  🔴 FINAL MALICIOUS [both]  (dyn MALICIOUS/90, static MALICIOUS/55)  events=13 msgs=0
+
+[76/120] eamodas.shiny-vscode/1.3.2
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/18, static BENIGN/0)  events=2 msgs=0
+
+[77/120] embeddteam.embedded-build-analyzer/1.1.3
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[78/120] embeddteam.embedded-cortex-debug/1.14.0
+  🟡 FINAL SUSPICIOUS [static]  (dyn BENIGN/0, static SUSPICIOUS/25)  events=0 msgs=0
+
+[79/120] embeddteam.embedded-cortex-debug/1.14.1
+  🟡 FINAL SUSPICIOUS [static]  (dyn BENIGN/0, static SUSPICIOUS/25)  events=0 msgs=0
+
+[80/120] embeddteam.embeddedprojectmanager/0.0.1
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[81/120] embeddteam.embeddedprojectmanager/0.0.2
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[82/120] flutcode.flutter-extension/3.122.0
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[83/120] garytyler.darcula-pycharm/1.0.0
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[84/120] hajoo.poisoned-extension/1.0.3
+  🟡 FINAL SUSPICIOUS [static-only, dynamic produced no log]  (static SUSPICIOUS/35)
+
+[85/120] juanbIanco.soli989/0.0.189
+  🔴 FINAL MALICIOUS [dynamic]  (dyn MALICIOUS/135, static BENIGN/0)  events=7 msgs=1
+     dest: function.undefined21.com
+
+[86/120] krabt.krabt-extension-pack/1.0.1
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[87/120] krabt.krabt-proto/0.5.7
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[88/120] kraftwer1.darcula-extra/0.6.0
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[89/120] labfile.labfile/0.0.5
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[90/120] luater.luatide/2.2.13
+  🔴 FINAL MALICIOUS [static]  (dyn BENIGN/0, static MALICIOUS/80)  events=0 msgs=0
+
+[91/120] msjsdreact.react-native-vsce/1.13.1
+  🔴 FINAL MALICIOUS [static]  (dyn BENIGN/18, static MALICIOUS/95)  events=17 msgs=0
+
+[92/120] ovixcodes.basedpyright-vscode/1.34.0
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[93/120] rafaelrenanpacheco.darcula-theme/1.18.1
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[94/120] sanchuan.glm-copilot/1.0.1
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[95/120] sanchuan.glm-copilot/1.0.12
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[96/120] sanchuan.glm-copilot/1.0.4
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[97/120] sanchuan.glm-copilot/1.0.7
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[98/120] sanchuan.glm-copilot/1.1.0
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[99/120] sanchuan.kimi-coding-copilot/1.0.12
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[100/120] sanchuan.kimi-coding-copilot/1.1.0
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[101/120] sanchuan.kimi-copilot/1.0.1
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[102/120] sanchuan.kimi-copilot/1.0.12
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[103/120] sanchuan.kimi-copilot/1.0.4
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[104/120] sanchuan.kimi-copilot/1.0.7
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[105/120] sanchuan.kimi-copilot/1.1.0
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[106/120] sanchuan.mimo-copilot/1.0.1
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[107/120] sanchuan.mimo-copilot/1.0.12
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[108/120] sanchuan.mimo-copilot/1.0.4
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[109/120] sanchuan.mimo-copilot/1.0.7
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[110/120] sanchuan.mimo-copilot/1.1.0
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[111/120] sanchuan.minimax-copilot/1.0.1
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[112/120] sanchuan.minimax-copilot/1.0.12
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[113/120] sanchuan.minimax-copilot/1.0.4
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[114/120] sanchuan.minimax-copilot/1.0.7
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[115/120] sanchuan.minimax-copilot/1.1.0
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[116/120] seHunt-20241016.seHunt-20241016/0.0.1
+  🔴 FINAL MALICIOUS [both]  (dyn MALICIOUS/115, static MALICIOUS/55)  events=30 msgs=0
+
+[117/120] serialt.sugar-proto/0.5.7
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[118/120] siffat-ahmed.ai-autocomplete-siffat-ahmed/0.1.0
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[119/120] wlnxingdev.free-senltig/17.6.0
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/0, static BENIGN/0)  events=0 msgs=0
+
+[120/120] zhukunpeng.chat-moss/8.0.0
+  🟢 FINAL BENIGN [both]  (dyn BENIGN/10, static BENIGN/0)  events=3 msgs=1
+     dest: undefined/luomacode-api/code/gen/v1/health
+
+════════════════════════════════════════════════════════════════════════
+  BATCH COMPLETE
+════════════════════════════════════════════════════════════════════════
+  Samples processed     : 120   (errors/no-log: 0)
+  FINAL MALICIOUS       : 48   (static+dynamic combined)
+  FINAL FLAGGED         : 61   (MALICIOUS + SUSPICIOUS)
+  --- treating this batch as ground-truth MALICIOUS (label=1) ---
+  Recall (strict)       : 40.0%   [TP=48 FN=72]
+  Recall (flagged)      : 50.8%   [TP=61 FN=59]
+
+  CSV     → ./res/all.csv
+  Summary → res/batch-summary.json
+════════════════════════════════════════════════════════════════════════
+
+  Tip: run once on the malicious set (--label 1) and once on the benign set
+       (--label 0 --append) into the SAME --csv, then: node evaluate.js <csv>
+
